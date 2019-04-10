@@ -1,0 +1,14 @@
+﻿  icpi.cpp
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Sendrecv referenced in function "void __cdecl oddEvenSort(int *,int,int,int,struct Particle *,int (__cdecl*)(struct Particle,struct Particle),struct Particle *)" (?oddEvenSort@@YAXPAHHHHPAUParticle@@P6AHU1@2@Z1@Z)
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Type_commit referenced in function _main
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Barrier referenced in function "void __cdecl oddEvenSort(int *,int,int,int,struct Particle *,int (__cdecl*)(struct Particle,struct Particle),struct Particle *)" (?oddEvenSort@@YAXPAHHHHPAUParticle@@P6AHU1@2@Z1@Z)
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Gather referenced in function _main
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Scatter referenced in function _main
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Comm_size referenced in function _main
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Comm_rank referenced in function _main
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Init referenced in function _main
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Finalize referenced in function _main
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Abort referenced in function _main
+icpi.obj : error LNK2019: unresolved external symbol _MPI_Type_create_struct referenced in function _main
+C:\Program Files\MPICH2\lib\mpi.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\gitRepos\OddEvenSort\Debug\Initial.exe : fatal error LNK1120: 11 unresolved externals

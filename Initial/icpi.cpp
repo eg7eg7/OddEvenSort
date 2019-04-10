@@ -16,9 +16,9 @@ void randStruct(struct Particle *mat, int size)
 {
 	for (int i = 0; i < size; i++)
 	{
-		mat[i].color = i;
-		mat[i].x = (float)(rand() % 10000) / 31;
-		mat[i].y = (float)(rand() % 10000) / 31;
+		mat[i].color = rand() % 256;
+		mat[i].x = (float)(rand() % 1000) / 31;
+		mat[i].y = (float)(rand() % 1000) / 31;
 	}
 }
 
